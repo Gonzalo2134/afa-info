@@ -11,9 +11,10 @@
 .letra{
     font-family: 'Times New Roman';
 }
-.nav_bar{
-    margin-left: 300px;
-    background-color: blanchedalmond;
+
+h2{
+    text-align: center;
+    font-family: 'Times New Roman';
 }
 
 .grid__container{
@@ -63,8 +64,75 @@
     padding: 10px;
 }
 
-///////////////
+/* 
+.flex__index{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} */
 
+.grid__index{
+    display: grid;
+    grid-area: "uno dos tres"
+                "cuatro cinco seis";
+}
+
+.index--item1{
+    grid-area: uno;
+    }
+    
+    .index--item2{
+        grid-area: dos;
+    }
+    .index--item3{
+        grid-area: tres;
+    }
+    .index--item4{
+        grid-area: cuatro;
+    }
+    .index--item5{
+        grid-area: cinco;
+    }
+    .index--item6{
+        grid-area: seis;
+    }
+    .index--item7{
+        grid-area: siete;
+    }
+    .index--item8{
+        grid-area: ocho;
+    }
+    .index--item9{
+        grid-area: nueve;
+    }
+    .index--item10{
+        grid-area: diez;
+    }
+    .index--item11{
+        grid-area: once;
+    }
+    .index--item12{
+        grid-area: docec;
+    }
+    .index--item13{
+        grid-area: trece;
+    }
+    .index--item14{
+        grid-area: catorce;
+    }
+    .index--item15{
+        grid-area: quince;
+    }
+    .index--item16{
+        grid-area: dieciseis;
+    }
+    .index--item17{
+        grid-area: diecisiete;
+    }
+    .index--item18{
+        grid-area: dieciocho;
+    }
 
 
 footer{
