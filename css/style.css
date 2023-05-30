@@ -1,0 +1,85 @@
+.titulo_h1{
+   background-image: url(../images/sc1.png);
+   height: 300px;
+   width: auto;
+    justify-content: center;
+    text-align: center;
+    background-position: center;
+    display: block;
+}
+
+.letra{
+    font-family: 'Times New Roman';
+}
+.nav_bar{
+    margin-left: 300px;
+    background-color: blanchedalmond;
+}
+
+.grid__container{
+    display: grid;
+    grid-template-rows: ;
+    grid-template-areas:"uno"
+                        "dos"
+                        "tres";
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.grid-item1{
+    grid-area: uno;
+
+}
+
+.grid-item2{
+    grid-area: dos;
+
+}
+
+.grid-item3{
+    grid-area: tres;
+
+}
+
+
+.messi{
+    height: 540px;
+    width: 960px;
+}
+
+.toro{
+    height: 540px;
+    width: 960px;
+}
+
+.fideo{
+    height: 540px;
+    width: 960px;
+}
+
+.lista{
+    padding: 10px;
+}
+
+///////////////
+
+
+
+footer{
+    background-color: rgb(230, 230, 230)
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100, 100, 100);
+}
+
+footer .container{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
